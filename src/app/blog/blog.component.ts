@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-blog',
+  templateUrl: './blog.component.html',
+  styleUrls: ['./blog.component.css']
 })
-export class AppComponent implements OnInit{
+export class BlogComponent implements OnInit {
 
   post:any; 
   posts=[]; 
@@ -25,4 +25,4 @@ export class AppComponent implements OnInit{
     }); 
    
   }
-  }
+}
